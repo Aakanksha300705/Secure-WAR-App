@@ -31,4 +31,5 @@ jobs:
           environment_name: Secure-WAR-App-env
           region: ap-south-1
           version_label: v-${{ github.run_number }}
-          deployment_package: target/*.war
+          deployment_package: target/SecureWARApp.war
+
